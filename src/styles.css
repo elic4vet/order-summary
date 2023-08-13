@@ -34,6 +34,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 h1 {
@@ -170,17 +171,17 @@ h1 {
   transition: ease-in-out 0.2s;
 }
 
-.attribution {
+footer {
   text-align: center;
   margin-top: 20px;
 }
 
-.attribution a {
+footer a {
   color: var(--bright-blue);
   text-decoration: none;
   margin-right: 8px;
 }
-.attribution a:hover {
+footer a:hover {
   color: var(--dark-lilac);
 }
 
@@ -198,7 +199,7 @@ h1 {
     background-size: cover;
   }
 
-  .attribution {
+  footer {
     margin-top: 5px;
     font-size: 0.9rem;
     text-align: center;
