@@ -1,0 +1,146 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: "Red Hat Display", sans-serif;
+
+  --fontw-reg: 500;
+  --fontw-bold: 700;
+  --fontw-dark: 900;
+
+  /*Colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /*Neutral */
+
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: var(--pale-blue);
+  color: var(--Dark-blue);
+  font-weight: var(--fontw-reg);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: var(--fontw-dark);
+  color: var(--Dark-blue);
+  margin-bottom: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-par {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: var(--Dark-blue);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: var(--bright-blue);
+  text-decoration: none;
+  margin-right: 8px;
+}
+.par {
+  font-size: 1rem;
+  color: var(--Dark-blue);
+  font-weight: 400;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0;
+}
+
+.plan {
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+.change {
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.annual {
+  font-weight: var(--fontw-dark);
+}
+
+.price {
+  color: var(-- -blue);
+  margin-bottom: 1rem;
+  font-weight: var(--fontw-reg);
+}
+
+.submit-btn {
+  background-color: var(--bright-blue);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  font-weight: var(--fontw-bold);
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.cancel {
+  color: var(--desaturated-blue);
+  text-decoration: none;
+  font-weight: var(--fontw-bold);
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
